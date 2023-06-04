@@ -13,3 +13,4 @@ def test_get_val():
     assert get_val(data, 'age') == 27
     assert get_val(data, 'education') == 'git'
     assert get_val(data, 'education', 'not found') == 'not found'
+    assert get_val('abcdefg', 'name') == 'git'
